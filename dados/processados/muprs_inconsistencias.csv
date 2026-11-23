@@ -1,0 +1,37 @@
+codigo_ibge,municipio,situacao,pop_atingida,domicilios_atingidos,enderecos_atingidos,vpc_auxilios,flag
+430005,Água Santa,Não Homologado,8,3,5,0,não homologado com impacto registrado
+430045,Alegria,Emergência,11,89,92,0,menos pessoas atingidas que domicílios atingidos
+430085,Arambaré,Calamidade,2134,2666,2855,174,menos pessoas atingidas que domicílios atingidos
+430160,Bagé,Emergência,1,2,3,7,menos pessoas atingidas que domicílios atingidos
+430187,Barra do Quaraí,Não Homologado,66,25,31,0,não homologado com impacto registrado
+430220,Boa Vista do Buricá,Não Homologado,17,8,9,0,não homologado com impacto registrado
+430370,Campina das Missões,Não Homologado,2,1,1,0,não homologado com impacto registrado
+430400,Campo Novo,Não Homologado,2,1,2,0,não homologado com impacto registrado
+430463,Capão da Canoa,Não Homologado,26,16,18,1,não homologado com impacto registrado
+430471,Caraá,Emergência,0,0,2,6,endereços atingidos sem pessoas atingidas
+430470,Carazinho,Não Homologado,4,2,2,0,não homologado com impacto registrado
+430520,Cerro Largo,Não Homologado,13,6,7,0,não homologado com impacto registrado
+430537,Charrua,Não Homologado,4,2,3,0,não homologado com impacto registrado
+430545,Cidreira,Não Homologado,2,2,2,0,não homologado com impacto registrado
+430673,Doutor Maurício Cardoso,Emergência,97,349,370,2,menos pessoas atingidas que domicílios atingidos
+430705,Ernestina,Não Homologado,1,1,1,0,não homologado com impacto registrado
+431301,Nova Candelária,Não Homologado,2,1,3,0,não homologado com impacto registrado
+431339,Novo Cabrais,Emergência,0,0,1,9,endereços atingidos sem pessoas atingidas
+431350,Osório,Não Homologado,112,64,67,0,não homologado com impacto registrado
+431575,Riozinho,Emergência,6,8,8,0,menos pessoas atingidas que domicílios atingidos
+431595,Rolador,Emergência,0,0,1,0,endereços atingidos sem pessoas atingidas
+431642,Sagrada Família,Emergência,0,0,1,2,endereços atingidos sem pessoas atingidas
+431643,Saldanha Marinho,Emergência,0,0,1,0,endereços atingidos sem pessoas atingidas
+431660,Sananduva,Não Homologado,5,3,8,0,não homologado com impacto registrado
+431673,Santa Cecília do Sul,Não Homologado,2,1,2,0,não homologado com impacto registrado
+431710,Santana do Livramento,Emergência,0,1,2,2,menos pessoas atingidas que domicílios atingidos; endereços atingidos sem pessoas atingidas
+431810,São Francisco de Assis,Emergência,27,29,31,2,menos pessoas atingidas que domicílios atingidos
+431980,São Vicente do Sul,Emergência,55,244,249,5,menos pessoas atingidas que domicílios atingidos
+432090,Tapejara,Não Homologado,7,4,4,0,não homologado com impacto registrado
+432135,Tavares,Emergência,6,7,7,0,menos pessoas atingidas que domicílios atingidos
+432150,Torres,Não Homologado,27,17,18,0,não homologado com impacto registrado
+432230,Tuparendi,Emergência,0,0,3,0,endereços atingidos sem pessoas atingidas
+432252,Vale Verde,Calamidade,225,448,468,4,menos pessoas atingidas que domicílios atingidos
+432335,Vila Lângaro,Não Homologado,3,1,1,0,não homologado com impacto registrado
+432345,Vila Nova do Sul,Emergência,0,0,1,1,endereços atingidos sem pessoas atingidas
+432380,Xangri-lá,Não Homologado,7,5,5,0,não homologado com impacto registrado
