@@ -23,7 +23,8 @@ st.set_page_config(
 
 @st.cache_data
 def carregar_dados():
-    caminho_arquivo = Path(__file__).parent / "./dados/processados/data_alterado.json"
+    raiz_projeto = Path(__file__).resolve().parent.parent
+    caminho_arquivo = raiz_projeto / "dados" / "processados" / "data_alterado.json"
 
     with open(caminho_arquivo, "r", encoding="utf-8") as arquivo:
         dados_json = json.load(arquivo)
