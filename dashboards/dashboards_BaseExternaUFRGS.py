@@ -38,7 +38,6 @@ INDICADORES_INCT = {
 # depois de tirar acentos e apóstrofos.
 EQUIVALENCIAS = {
     "CEL APARICIO BORGES": "CORONEL APARICIO BORGES",
-    "SAO JOSE": "VILA SAO JOSE",
 }
 
 AZUL = "#2563EB"
@@ -146,7 +145,7 @@ def montar_base():
     ufrgs = carregar_ufrgs()
     inct = carregar_inct(NIVEL_MANCHA)
 
-    base = ufrgs.merge(inct, on="chave", how="left", indicator=True)
+    base = ufrgs.merge(inct, on="chave", how="left", indicator=True, validate="one_to_one")
 
     # Nome de exibição: o do INCT, que tem acentos.
     base["bairro"] = base["bairro_inct"].fillna(
@@ -587,6 +586,12 @@ st.warning(
       distribuídas igualmente entre todos os prédios do bairro.
     - A mancha de 5,3 m é comparada com a simulação a 5,3 m; o recorde de
       maio de 2024 foi 5,35 m.
+    - O bairro São José não foi incluído na comparação entre
+      INCT e UFRGS, pois não foi confirmada uma correspondência
+      geográfica equivalente entre as bases.
+    - Os dados do bairro Espírito Santo passaram por tratamento
+      de anomalias, incluindo imputação e interpolação de valores.
+      Esses ajustes são estimativas, não medições originais.
     """
 )
 
